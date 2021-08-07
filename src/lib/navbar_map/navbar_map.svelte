@@ -9,7 +9,9 @@
 
     <div class="uk-position-top">
 
-<div class="uk-navbar-container tm-navbar-container" uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-light; cls-inactive: uk-navbar-transparent; top: 200">
+<!-- uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-light; cls-inactive: uk-navbar-transparent; top: 200" -->
+
+<div class="uk-navbar-container tm-navbar-container uk-navbar-transparent">
     <div class="uk-container uk-container-expand">
         <nav class="uk-navbar">
 
@@ -25,7 +27,7 @@
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
                     <li class:active={$page.path === '/map'}><a sveltekit:prefetch href="/map">Map</a></li>
-                    <li class:active={$page.path === '/todos'}><a sveltekit:prefetch href="/todos">FrontRunners</a></li>
+                    <li class:active={$page.path === '/frontrunners'}><a sveltekit:prefetch href="/frontrunners">FrontRunners</a></li>
                 </ul>
 
                 <div class="uk-navbar-item uk-visible@m">

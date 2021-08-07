@@ -9,9 +9,11 @@
 
 {#if $page.path === '/'}
 <NavbarHome />
-{:else if $page.path === '/map'}
+{/if}
+{#if $page.path === '/map'}
 <NavbarMap />
-{:else}
+{/if}
+{#if $page.path !== '/' && $page.path !== '/map'}
 <Navbar />
 {/if}
 

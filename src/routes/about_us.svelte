@@ -5,10 +5,11 @@
 	<title>About Us</title>
 </svelte:head>
 
+
 <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
     
 	<div>
-        <div class="uk-card uk-card-default uk-margin-xlarge-left uk-margin-large-top">
+        <div class="uk-card uk-margin-xlarge-left uk-margin-large-top" style = "background-color:white">
 			<div class="uk-card-header">
 				<div class="uk-grid-small uk-flex-middle" uk-grid>
 					<div class="uk-width-auto">
@@ -31,7 +32,7 @@
     </div>
    
 	<div>
-        <div class="uk-card uk-card-default uk-margin-xlarge-right uk-margin-large-top">
+        <div class="uk-card uk-margin-xlarge-right uk-margin-large-top" style = "background-color:white">
 			<div class="uk-card-header">
 				<div class="uk-grid-small uk-flex-middle" uk-grid>
 					<div class="uk-width-auto">
