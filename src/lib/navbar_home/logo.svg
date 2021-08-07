@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="426px" height="446px" viewBox="0 0 426 446" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>logo-5</title>
+    <g id="logo-5" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval" fill="#1DACE8" cx="212.5" cy="221.5" r="193.5"></circle>
+        <path d="M189.900217,280.650414 L199.35983,269.742073 C201.81377,266.912314 204.775924,264.567116 208.093138,262.827734 C250.751003,240.460069 275.110321,216.114646 281.171093,189.791464 C290.607569,148.806896 213,128.798429 213,83.2988755 C213,63.7185554 228.862938,47.4827795 260.588814,34.5915478" id="Path" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8,13"></path>
+        <g id="Group" transform="translate(100.000000, 281.000000)">
+            <polygon id="Path-11" stroke="#C2C2C2" stroke-width="0.5" fill="#FFFFFF" stroke-linejoin="round" points="0 44.6804032 90 0 25.8073247 59"></polygon>
+            <polygon id="Path-12" stroke="#C2C2C2" stroke-width="0.5" fill="#FFFFFF" stroke-linejoin="round" points="90 0 63.2472106 81 35 64.9615586"></polygon>
+            <polygon id="Path-13" stroke="#C2C2C2" stroke-width="0.5" fill="#D8D8D8" stroke-linejoin="round" points="26 59.2929527 32.3743537 76 35.1611676 64.7047696 90 -1.687539e-14"></polygon>
+            <polygon id="Path-14" fill="#B2B2B2" points="34.8521708 65 32 76 42 68.8785893"></polygon>
+        </g>
+    </g>
+</svg>
