@@ -10,11 +10,11 @@
 
 <div class="uk-navbar-container tm-navbar-container uk-navbar-transparent">
     <div class="uk-container uk-container-expand">
-        <nav class="uk-navbar">
+        <nav class="uk-navbar" uk-navbar="mode: click">
             
 
             <div class="uk-navbar-center">
-                <div class = "uk-navbar-item"> 
+                <div class = "uk-navbar-item uk-visible@m"> 
                 <span style = "font-size:20px; font-weight:100;"> Academic </span>
                 <span style = "font-size:20px; font-weight:300;">Travel</span>
                 </div>   
@@ -30,8 +30,7 @@
 
                 <div class="uk-navbar-item uk-visible@m">
                 </div>
-                <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas" uk-toggle></a>
-
+                
             </div>
             <div class="uk-navbar-right">
 
@@ -41,11 +40,29 @@
                     <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
                 </ul>
 
-                <div class="uk-navbar-item uk-visible@m">
-                </div>
-                <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas" uk-toggle></a>
-
+               <div class="uk-navbar-item uk-visible@m">
+               </div>              
             </div>
+
+            <!-- Off canvas stuff -->
+        <div class="uk-navbar-left">
+                <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas-usage" uk-toggle="target: #offcanvas-usage"></a>
+                
+                <div id="offcanvas-usage" uk-offcanvas>
+                <div class="uk-offcanvas-bar">
+                
+                        <button class="uk-offcanvas-close" type="button" uk-close></button>
+                <ul class="uk-nav">
+                    <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+                    <li class:active={$page.path === '/map'}><a sveltekit:prefetch href="/map">Map</a></li>
+                    <li class:active={$page.path === '/frontrunners'}><a sveltekit:prefetch href="/frontrunners">FrontRunners</a></li>
+                    <li class:active={$page.path === '/faqs'}><a sveltekit:prefetch href="/faqs">FAQ</a></li>
+                    <li class:active={$page.path === '/research'}><a sveltekit:prefetch href="/research">UGent Research</a></li>
+                    <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- End of Off canvas -->
 
         </nav>
     </div>

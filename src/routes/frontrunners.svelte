@@ -5,11 +5,11 @@
     <div>
         <div class="uk-card">
             <div class="uk-card-media-top">
-                <img src={elon} alt="">
+                <img src={elon} alt="Elon">
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Elon Musk</h3>
-                <p>Doesn't do trains, but does go to Mars.</p>
+                <p>Doesn't do trains, but does go to Mars .</p>
             </div>
         </div>
     </div>
