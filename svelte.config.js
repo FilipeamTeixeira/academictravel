@@ -1,3 +1,11 @@
+import node from '@sveltejs/adapter-node';
+
+export default {
+	kit: {
+		adapter: node()
+	}
+};
+
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
@@ -6,4 +14,4 @@ const config = {
 	}
 };
 
-export default config;
+//export default config;
