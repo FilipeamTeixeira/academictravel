@@ -4,6 +4,7 @@
 
 
 <div class="uk-position-relative">
+    <!-- svelte-ignore a11y-missing-attribute -->
     <object type="text/html" data="https://academictravel.ugent.be/shiny/academictravel/" style="overflow:auto; width:100%; height:89vh;">
     </object>
 
@@ -42,35 +43,32 @@
                     <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
                 </ul>
 
-                <div class="uk-navbar-item uk-visible@m">
-                </div>
             </div>
+                <!-- svelte-ignore a11y-missing-content -->
+                <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas" uk-toggle></a>
+        </nav>
+    </div>
+</div>
 
 
-            <!-- Off canvas stuff -->
-            <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas-usage" uk-toggle="target: #offcanvas-usage"></a>
-            
-            <div id="offcanvas-usage uk-hidden@m" uk-offcanvas>
-            <div class="uk-offcanvas-bar uk-hidden@m">
-            
-                    <button class="uk-offcanvas-close" type="button" uk-close></button>
-            <ul class="uk-nav">
+</div>
+</div>
+
+<div id="offcanvas" uk-offcanvas="mode: push; overlay: true">
+    <div class="uk-offcanvas-bar">
+        <div class="uk-panel">
+            <ul class="uk-nav uk-nav-default tm-nav">
                 <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
                 <li class:active={$page.path === '/map'}><a sveltekit:prefetch href="/map">Map</a></li>
                 <li class:active={$page.path === '/frontrunners'}><a sveltekit:prefetch href="/frontrunners">FrontRunners</a></li>
                 <li class:active={$page.path === '/faqs'}><a sveltekit:prefetch href="/faqs">FAQ</a></li>
                 <li class:active={$page.path === '/research'}><a sveltekit:prefetch href="/research">UGent Research</a></li>
                 <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
-            </ul>
-    </div>
-    <!-- End of Off canvas -->
+        </ul>
+        </div>
 
-        </nav>
     </div>
 </div>
-</div>
-</div>
-
 
 <style>
 .uk-navbar-container:not(.uk-navbar-transparent) {

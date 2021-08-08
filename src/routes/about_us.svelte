@@ -9,7 +9,7 @@
 <div class="uk-child-width-1-2@s uk-grid-match" uk-grid>
     
 	<div>
-        <div class="uk-card uk-margin-xlarge-left uk-margin-large-top" style = "background-color:white">
+        <div class="uk-card uk-card-small uk-margin-xlarge-left uk-margin-large-top" style = "background-color:white">
 			<div class="uk-card-header">
 				<div class="uk-grid-small uk-flex-middle" uk-grid>
 					<div class="uk-width-auto">
@@ -21,7 +21,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="uk-card-body">
+			<div class="uk-card-body uk-text-small">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 			</div>
 			<div class="uk-card-footer">
@@ -32,7 +32,7 @@
     </div>
    
 	<div>
-        <div class="uk-card uk-margin-xlarge-right uk-margin-large-top" style = "background-color:white">
+        <div class="uk-card uk-card-small uk-margin-xlarge-right uk-margin-large-top" style = "background-color:white">
 			<div class="uk-card-header">
 				<div class="uk-grid-small uk-flex-middle" uk-grid>
 					<div class="uk-width-auto">
@@ -44,7 +44,7 @@
 					</div>
 				</div>
 			</div>
-			<div class="uk-card-body">
+			<div class="uk-card-body uk-text-small">
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
 			</div>
 			<div class="uk-card-footer">
