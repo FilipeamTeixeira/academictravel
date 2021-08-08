@@ -30,7 +30,7 @@
 
                 <div class="uk-navbar-item uk-visible@m">
                 </div>
-                
+
             </div>
             <div class="uk-navbar-right">
 
@@ -44,11 +44,10 @@
                </div>              
             </div>
 
-            <!-- Off canvas stuff -->
-        <div class="uk-navbar-left">
+            <!-- Off canvas stuff
                 <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas-usage" uk-toggle="target: #offcanvas-usage"></a>
                 
-                <div id="offcanvas-usage" uk-offcanvas>
+                <div id="offcanvas-usage uk-hidden@m" uk-offcanvas>
                 <div class="uk-offcanvas-bar">
                 
                         <button class="uk-offcanvas-close" type="button" uk-close></button>
@@ -60,9 +59,8 @@
                     <li class:active={$page.path === '/research'}><a sveltekit:prefetch href="/research">UGent Research</a></li>
                     <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
                 </ul>
-            </div>
         </div>
-        <!-- End of Off canvas -->
+         End of Off canvas -->
 
         </nav>
     </div>

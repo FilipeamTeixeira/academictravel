@@ -47,7 +47,7 @@
             </div>
 
 
-            <!-- Off canvas stuff
+            <!-- Off canvas stuff -->
             <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas-usage" uk-toggle="target: #offcanvas-usage"></a>
             
             <div id="offcanvas-usage uk-hidden@m" uk-offcanvas>
@@ -63,7 +63,7 @@
                 <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
             </ul>
     </div>
-     End of Off canvas -->
+    <!-- End of Off canvas -->
 
         </nav>
     </div>
