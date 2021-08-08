@@ -1,9 +1,11 @@
-
+<script>
+    import elon from "/src/lib/pics/elon.jpeg";
+</script>
 <div class="uk-grid-divider uk-child-width-expand@s frontrun" uk-grid>
     <div>
         <div class="uk-card">
             <div class="uk-card-media-top">
-                <img src="/src/lib/pics/elon.jpeg" alt="">
+                <img src={elon} alt="">
             </div>
             <div class="uk-card-body">
                 <h3 class="uk-card-title">Elon Musk</h3>

@@ -40,9 +40,7 @@
 <svelte:head>
 	<title>Todos</title>
 </svelte:head>
-<div class="uk-position-relative">
-	<img src="../src/lib/navbar_home/background.png" alt="">
-</div>
+
 <div class="todos">
 	<h1>Todos</h1>
 

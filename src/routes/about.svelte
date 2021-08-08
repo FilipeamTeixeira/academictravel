@@ -17,9 +17,7 @@
 <svelte:head>
 	<title>About</title>
 </svelte:head>
-	<div class="uk-position-relative">
-    	<img src="../src/lib/navbar_home/background.png" alt="">
-	</div>
+
 <div class="content">
 	<h1>About this app</h1>
 

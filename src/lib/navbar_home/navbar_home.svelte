@@ -1,8 +1,9 @@
 <script>
     	import { page } from '$app/stores';
+        import airplane from '/src/lib/navbar_home/background.png';
 </script>
 <div class="uk-position-relative">
-    <img src="../src/lib/navbar_home/background.png" alt="">
+    <img src={airplane} alt="">
     <div class="uk-position-top">
 
 <!-- uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-light; cls-inactive: uk-navbar-transparent; top: 200" -->

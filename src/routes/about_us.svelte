@@ -13,7 +13,7 @@
 			<div class="uk-card-header">
 				<div class="uk-grid-small uk-flex-middle" uk-grid>
 					<div class="uk-width-auto">
-						<img class="uk-border-circle" width="40" height="40" src="images/avatar.jpg">
+						<img class="uk-border-circle" width="40" height="40" src="#">
 					</div>
 					<div class="uk-width-expand">
 						<h3 class="uk-card-title uk-margin-remove-bottom">Filipe Teixeira</h3>
@@ -36,7 +36,7 @@
 			<div class="uk-card-header">
 				<div class="uk-grid-small uk-flex-middle" uk-grid>
 					<div class="uk-width-auto">
-						<img class="uk-border-circle" width="40" height="40" src="images/avatar.jpg">
+						<img class="uk-border-circle" width="40" height="40" src="#">
 					</div>
 					<div class="uk-width-expand">
 						<h3 class="uk-card-title uk-margin-remove-bottom">Freke Caset</h3>
