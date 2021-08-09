@@ -2,16 +2,12 @@
     	import { page } from '$app/stores';
         import airplane from '/src/lib/navbar_home/background.png';
 </script>
+
 <div class="uk-position-relative">
     <img src={airplane} alt="">
     <div class="uk-position-top">
 
-<!-- uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-light; cls-inactive: uk-navbar-transparent; top: 200" -->
-
-<div class="uk-navbar-container tm-navbar-container uk-navbar-transparent">
-    <div class="uk-container uk-container-expand">
-        <nav class="uk-navbar">
-
+        <nav class="uk-navbar uk-navbar-transparent">
             <div class="uk-navbar-center">
                 <div class = "uk-navbar-item"> 
                 <span style = "font-size:20px; font-weight:100;"> Academic </span>
@@ -20,7 +16,6 @@
             </div>
 
             <div class="uk-navbar-left">
-
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
                     <li class:active={$page.path === '/map'}><a sveltekit:prefetch href="/map">Map</a></li>
@@ -29,49 +24,24 @@
 
                 <div class="uk-navbar-item uk-visible@m">
                 </div>
-
             </div>
-            <div class="uk-navbar-right">
 
+            <div class="uk-navbar-right">
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li class:active={$page.path === '/faqs'}><a sveltekit:prefetch href="/faqs">FAQ</a></li>
                     <li class:active={$page.path === '/research'}><a sveltekit:prefetch href="/research">UGent Research</a></li>
                     <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
                 </ul>
-
-            </div>
                 <!-- svelte-ignore a11y-missing-content -->
-                <a class="uk-navbar-toggle uk-hidden@m" uk-navbar-toggle-icon href="#offcanvas" uk-toggle></a>
-        
+                <a class="uk-navbar-toggle uk-hidden@m" href="#offcanvas" uk-toggle style = "font-size:25px; font-weight:300;">≡</a>
+            </div>
         </nav>
-    </div>
-</div>
-
 
 </div>
-</div>
-
-<div id="offcanvas" uk-offcanvas="mode: push; overlay: true">
-    <div class="uk-offcanvas-bar">
-        <div class="uk-panel">
-            <ul class="uk-nav uk-nav-default tm-nav">
-                <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
-                <li class:active={$page.path === '/map'}><a sveltekit:prefetch href="/map">Map</a></li>
-                <li class:active={$page.path === '/frontrunners'}><a sveltekit:prefetch href="/frontrunners">FrontRunners</a></li>
-                <li class:active={$page.path === '/faqs'}><a sveltekit:prefetch href="/faqs">FAQ</a></li>
-                <li class:active={$page.path === '/research'}><a sveltekit:prefetch href="/research">UGent Research</a></li>
-                <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
-        </ul>
-        </div>
-
-    </div>
 </div>
 
 
 <style>
-.uk-navbar-container:not(.uk-navbar-transparent) {
-	background: rgb(79, 79, 79);
-}
 
 .uk-navbar-nav > li > a {
     color:rgb(79, 79, 79);
@@ -87,5 +57,6 @@ span{
     display: inline-block;
     margin-right: -3px;
 }
+
 
 </style>

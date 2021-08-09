@@ -5,6 +5,7 @@
 	import NavbarMap from '/src/lib/navbar_map/navbar_map.svelte';
 	import '../app.css';
 	import '@fontsource/roboto';
+
 </script>
 
 {#if $page.path === '/'}
@@ -17,6 +18,8 @@
 <Navbar />
 {/if}
 
+
+
 <main>
 	<slot />
 </main>
@@ -24,6 +27,21 @@
 <footer>
 
 </footer>
+
+<div id="offcanvas" uk-offcanvas="mode: push; overlay: true">
+    <div class="uk-offcanvas-bar">
+        <div class="uk-panel">
+            <ul class="uk-nav uk-nav-default tm-nav">
+                <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
+                <li class:active={$page.path === '/map'}><a sveltekit:prefetch href="/map">Map</a></li>
+                <li class:active={$page.path === '/frontrunners'}><a sveltekit:prefetch href="/frontrunners">FrontRunners</a></li>
+                <li class:active={$page.path === '/faqs'}><a sveltekit:prefetch href="/faqs">FAQ</a></li>
+                <li class:active={$page.path === '/research'}><a sveltekit:prefetch href="/research">UGent Research</a></li>
+                <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
+             </ul>
+        </div>
+    </div>
+</div>
 
 <style>
 	main {

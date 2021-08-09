@@ -1,6 +1,5 @@
 <script context="module">
 	export const prerender = true;
-	
 </script>
 
 <svelte:head>
@@ -13,7 +12,6 @@
 		</div>
 	</div>
 </div>
-
 
 <div class="uk-section uk-section-muted">
     <div class="uk-container">
