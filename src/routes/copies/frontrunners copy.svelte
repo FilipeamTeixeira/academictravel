@@ -4,31 +4,23 @@
 
 </script>
 
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
 
-<ul class="uk-margin-remove uk-padding-remove uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+<div class = "uk-margin-medium-top uk-margin-remove uk-section">
+<div class="uk-grid-collapse uk-child-width-expand@s uk-text-center uk-margin-large-top uk-margin" uk-grid>
     {#each stories as stories}
-    <li class="uk-transition-toggle uk-animation-toggle">
-
     <a href="#{stories.id}" uk-toggle>
-        <div uk-height-viewport="offset-top: true" class="uk-card uk-card-body uk-height-medium uk-light" style="background-color:{stories.color}">
-                <h1 class = "uk-text-left uk-margin-top" style = "font-weight:600;">{stories.name}</h1>
-            <p class = "uk-text-meta uk-margin-top-medium">{stories.bio}</p>
-            <!-- removed class="uk-transition-slide-bottom-small"-->
-            <div class="uk-card-footer uk-position-bottom">
-                <span class = "uk-light uk-margin-small-right" uk-icon="info"></span>
-                <span class = "uk-light" style="font-size: 14px;">Read story</span>
-            </div>
-
+        <div class="uk-visible-toggle uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover uk-light" data-src={stories.picture} uk-img>
+            <h1 class="uk-invisible-hover" style = "font-weight:100;">{stories.name}</h1>
         </div>
     </a>
-</li>
+    <!--
+    <div>
+        <a href="#{stories.id}" uk-toggle>
+            <img class="uk-background-muted uk-padding" src = {stories.picture} alt = "">
+        </a>
+    </div> -->
     {/each}
-</ul>
-
-<a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
-<a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
-
+</div>
 </div>
 
 <!-- TODO:
@@ -98,15 +90,4 @@ a:hover, a:visited, a:link, a:active{
     </div>
     {/each}
 
--->
-
-<!--
-    Colors:
-    675864
-    d37861
-    144a81
-    d04444
-    93b3ad
-    147074
-    0076b6
 -->

@@ -37,8 +37,45 @@
             </div>
         </nav>
 
+
+        <div class="uk-child-width-1-1@s uk-grid-collapse uk-text-left" uk-grid>
+            <div>
+                <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow = "autoplay: true">
+                    <ul class="uk-slideshow-items uk-margin-xlarge-top uk-padding-large-top">
+                        <li>
+                            <div class="uk-position-center uk-position-small uk-text-center">
+                                <p class="uk-margin-remove quote">The views were just magnificent as the windows were really large.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-position-center uk-position-small uk-text-center">
+                                <p class="uk-margin-remove quote">The best experience was waking up on the flixbus in the morning, looking at the Swedish landscape and hoping to spot an elk!</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-position-center uk-position-small uk-text-center">
+                                <p class="uk-margin-remove quote">Slow traveling on the cargo ship with plenty of time to talk, read, work and rest along the way.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="uk-position-center uk-position-small uk-text-center">
+                                <p class="uk-margin-remove quote">I usually get really a lot of work done during long train trips!</p>
+                            </div>
+                        </li>
+                    </ul>
+        
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" style="color:#d1d1d1;" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" style="color:#d1d1d1;" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+        
+                </div>
+            </div>
+        </div>
+
+
+
 </div>
 </div>
+
 
 
 <style>
@@ -58,5 +95,11 @@ span{
     margin-right: -3px;
 }
 
+.quote{
+    font-weight: 100;
+    font-family: 'Helvetica';
+    font-size:medium;
+    color:#8a8a8a;
+}
 
 </style>

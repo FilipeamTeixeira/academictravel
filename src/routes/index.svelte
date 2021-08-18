@@ -14,21 +14,15 @@
 </div>
 
 <div class="uk-section uk-section-muted">
-    <div class="uk-container">
+    <div class="uk-container uk-text-center">
 
-        <h3>Some Text</h3>
-
-        <div class="uk-grid-match uk-child-width-1-3@m" uk-grid>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        <h3>Sustainable travel</h3>
+        
+            <div class = "uk-text-center">
+                Ghent University commits itself to fly less, more thoughtfully and more sustainably, and thus to reduce the CO2 emissions of its air travel by at least 1/3rd by 2030 compared to 2019.
+                More information: https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm
             </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-            </div>
-            <div>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-            </div>
-        </div>
+        
 
     </div>
 </div>
