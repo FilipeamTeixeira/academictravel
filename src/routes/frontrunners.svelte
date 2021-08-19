@@ -8,7 +8,7 @@
 
 <ul class="uk-margin-remove uk-padding-remove uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
     {#each stories as stories}
-    <li class="uk-transition-toggle uk-animation-toggle">
+    <li class="zoom uk-transition-toggle uk-animation-toggle">
 
     <a href="#{stories.id}" uk-toggle>
         <div uk-height-viewport="offset-top: true" class="uk-card uk-card-body uk-height-medium uk-light" style="background-color:{stories.color}">
@@ -19,7 +19,6 @@
                 <span class = "uk-light uk-margin-small-right" uk-icon="info"></span>
                 <span class = "uk-light" style="font-size: 14px;">Read story</span>
             </div>
-
         </div>
     </a>
 </li>
@@ -58,6 +57,12 @@ a:hover, a:visited, a:link, a:active{
     text-decoration: none;
 }
 
+.zoom:hover {
+  transform: scale(1.1);
+  z-index: 3;
+  position:relative;
+} 
+
 .uk-section{
     margin:20px;
 }
@@ -69,8 +74,6 @@ a:hover, a:visited, a:link, a:active{
 }
 
 </style>
-
-
 
 
 <!--
@@ -98,15 +101,4 @@ a:hover, a:visited, a:link, a:active{
     </div>
     {/each}
 
--->
-
-<!--
-    Colors:
-    675864
-    d37861
-    144a81
-    d04444
-    93b3ad
-    147074
-    0076b6
 -->

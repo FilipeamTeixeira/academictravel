@@ -40,7 +40,7 @@
 
         <div class="uk-child-width-1-1@s uk-grid-collapse uk-text-left" uk-grid>
             <div>
-                <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow = "autoplay: true">
+                <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow = "autoplay: true; autoplay-interval: 4500; pause-on-hover: true;">
                     <ul class="uk-slideshow-items uk-margin-xlarge-top uk-padding-large-top">
                         <li>
                             <div class="uk-position-center uk-position-small uk-text-center">

@@ -17,7 +17,7 @@ import json_faq from "/static/json_files/faq_en.json"
                                 <li class = "skills-el" data-name = "div 1">
                                 <a class="uk-accordion-title" href="#">{faq.title}</a>
                                     <div class="uk-accordion-content">
-                                        <p>{faq.content}</p>
+                                        <p>{@html faq.content}</p>
                                     </div>
                                 </li>
                                 {/each}
@@ -32,7 +32,7 @@ import json_faq from "/static/json_files/faq_en.json"
                                     <li>
                                     <a class="uk-accordion-title" href="#">{faq.title}</a>
                                         <div class="uk-accordion-content">
-                                            <p>{faq.content}</p>
+                                            <p>{@html faq.content}</p>
                                         </div>
                                     </li>
                                     {/each}
@@ -48,7 +48,7 @@ import json_faq from "/static/json_files/faq_en.json"
                                 <li>
                                 <a class="uk-accordion-title" href="#">{faq.title}</a>
                                     <div class="uk-accordion-content">
-                                        <p>{faq.content}</p>
+                                        <p>{@html faq.content}</p>
                                     </div>
                                 </li>
                                 {/each}
@@ -66,7 +66,7 @@ import json_faq from "/static/json_files/faq_en.json"
                                         <li>
                                         <a class="uk-accordion-title" href="#">{faq.title}</a>
                                             <div class="uk-accordion-content">
-                                                <p>{faq.content}</p>
+                                                <p>{@html faq.content}</p>
                                             </div>
                                         </li>
                                         {/each}
