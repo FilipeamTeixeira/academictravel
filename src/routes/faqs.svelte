@@ -9,12 +9,15 @@ import FaqEn from "./faq_en.svelte";
     <div class="uk-container">
 
         <div class="uk-margin">
-            <form class="uk-search uk-search-default uk-align-center">
+            <h1 class = "uk-heading-small uk-text-center uk-text-lighter" style="color:#5b8a68">Frequently asked questions</h1>
+            <h4 class = "uk-margin-remove uk-padding-remove uk-text-center uk-text-lighter" style="color:#5b8a68">If your question cannot be found below, please feel free to contact us.</h4>
+
+           <!-- <form class="uk-search uk-search-default uk-align-center">
                 <span uk-search-icon></span>
                 
-                <input uk-filter-control="" class="uk-search-input uk-text-lighter" type="search" placeholder="Search">
+                <input bind:value={searchTerm} uk-filter-control="" class="uk-search-input uk-text-lighter" type="search" placeholder="Search">
             </form>
-
+            -->
         </div>
     </div>
 </div>    

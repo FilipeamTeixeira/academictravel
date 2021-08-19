@@ -73,7 +73,10 @@ a:hover, a:visited, a:link, a:active{
     font-size: 18px;
 }
 
+
 </style>
+
+
 
 
 <!--
@@ -101,4 +104,15 @@ a:hover, a:visited, a:link, a:active{
     </div>
     {/each}
 
+-->
+
+<!--
+    Colors:
+    675864
+    d37861
+    144a81
+    d04444
+    93b3ad
+    147074
+    0076b6
 -->

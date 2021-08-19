@@ -35,7 +35,7 @@
 		</div>
 
 		<div class= "uk-margin-remove uk-padding-remove">
-			<p class= "uk-margin-small uk-padding-remove" style = "display: block; text-decoration:none; font-size:12px; font-family:Helvetica; font-weight:100;">Follow me</p>
+			<!--<p class= "uk-margin-small uk-padding-remove" style = "display: block; text-decoration:none; font-size:12px; font-family:Helvetica; font-weight:100;">Follow me</p>-->
 			<a href="https://github.com/FilipeamTeixeira" target="_blank">
 				<span uk-icon="icon: github; ratio: 1.2" class = "uk-icon-link"></span>
 			</a>
