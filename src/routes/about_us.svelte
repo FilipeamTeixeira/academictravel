@@ -38,7 +38,7 @@
 <div class="uk-grid-collapse" uk-grid>
 	<div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-3-5 uk-background-cover" style="height:250px;" data-src={train3} uk-img></div>
 	<div class="uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-5" style="height:250px; background-color: #d04444;">
-		<h1 class = "uk-text-left uk-margin-top" style = "font-weight:600;">Riet</h1>
+		<h3 class = "uk-text-left uk-margin-top" style = "font-weight:600;">Environmental department and Green Office</h3>
 	</div>
 </div>
 

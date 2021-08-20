@@ -1,5 +1,6 @@
 <script context="module">
 	export const prerender = true;
+    import banner from "/static/pictures/banner.jpg"
 </script>
 
 <svelte:head>
@@ -12,6 +13,11 @@
 		</div>
 	</div>
 </div>
+
+
+    <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover" data-src={banner} uk-img>
+    </div>
+
 
 <div class="uk-section uk-section-muted uk-section-medium">
     <div class="uk-card uk-card-body">

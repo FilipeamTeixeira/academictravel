@@ -5,7 +5,7 @@
 
 <div class="uk-position-relative">
     <!-- svelte-ignore a11y-missing-attribute -->
-    <object type="text/html" data="https://academictravel.ugent.be/shiny/academictravel/" style="overflow:auto; width:100%; height:90vh;">
+    <object type="text/html" data="https://academictravel.ugent.be/shiny/academictravel/" style="overflow:auto; width:100%; height:100vh;">
     </object>
     <div class="uk-position-top">
 

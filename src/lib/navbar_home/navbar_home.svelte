@@ -1,9 +1,9 @@
 <script>
     	import { page } from '$app/stores';
-        import airplane from '/src/lib/navbar_home/background.png';
+        import airplane from '/src/lib/navbar_home/background-small.png';
 </script>
 
-<div class="uk-position-relative">
+<div class="uk-position-relative" style = "height: 60vh;"> <!--added new height-->
     <img src={airplane} alt="">
     <div class="uk-position-top">
 
@@ -41,7 +41,7 @@
         <div class="uk-child-width-1-1@s uk-grid-collapse uk-text-left" uk-grid>
             <div>
                 <div class="uk-position-relative uk-visible-toggle" tabindex="-1" uk-slideshow = "autoplay: true; autoplay-interval: 4500; pause-on-hover: true;">
-                    <ul class="uk-slideshow-items uk-margin-xlarge-top uk-padding-large-top">
+                    <ul class="uk-slideshow-items uk-margin-medium-top uk-padding-large-top"> <!--removed margin here-->
                         <li>
                             <div class="uk-position-center uk-position-small uk-text-center">
                                 <p class="uk-margin-remove quote">The views were just magnificent as the windows were really large.</p>
