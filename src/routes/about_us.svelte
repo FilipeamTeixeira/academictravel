@@ -13,8 +13,13 @@
 
 
 <div class="uk-grid-collapse" uk-grid>
-        <div class="uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-3" style="font-family:Helvetica; font-weight:100; height:350px; background-color: #93b3ad;">
-			We, Filipe, Freke and Riet, did...
+        <div class="uk-text-justify uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-3" style="padding: 40px; font-family:Helvetica; font-weight:100; height:350px; background-color: #93b3ad;">
+			This Academic Travel platform is an initiative from the Environmental Department, the Green Office and the Geography Department, all embedded within Ghent University. 
+			The tool was conceptualized and developed in light of the new UGent sustainable travel policy which was rolled out in September 2021. 
+			In its initial stage, 'Academic Travel' aims to serve as a sensitizing and inspirational tool for the community of UGent employees, 
+			hoping to stimulate the transition towards more sustainable work-related travels. 
+			A number of UGent members in particular have dedicated their time into realising this 
+			tool and are listed below. We are very keen on receiving any feedback of comments you may have. Feel free to contact us (details below).
 		</div>
         <div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-1-3 uk-background-cover " style="height:350px;" data-src={train1} uk-img>
 			</div>
