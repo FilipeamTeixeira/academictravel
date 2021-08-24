@@ -4,19 +4,19 @@
         "content": "Click on the 'maps' tab. Here you can find an overview of these cities, along with an estimate of the travel time and number of transfers."
         },
         {"title": "Which cities can you reach relatively comfortably by night train?",
-        "content": "<a href=\"https://rail.cc/night-train/belgium/be\">Here</a> you will find an overview of the night trains, e.g. from Brussels (to Vienna and Innsbruck), from Cologne (to Munich and Nuremberg), from Hendaye (to Madrid), ... In 2022, trains will also go from Brussels to Malmö and Berlin."
+        "content": "<a href=\"https://rail.cc/night-train/belgium/be\" target=\"_blank\">Here</a> you will find an overview of the night trains, e.g. from Brussels (to Vienna and Innsbruck), from Cologne (to Munich and Nuremberg), from Hendaye (to Madrid), ... In 2022, trains will also go from Brussels to Malmö and Berlin."
         }
     ],
 
 "reservation": [
         {"title": "Where can I book long-distance trains?",
-        "content": "UGent employees can use our contract with Uniglobe Smart Travel. This organisation takes care of your train booking. You can also book directly via <a href=\"https://www.b-europe.com/EN\">SNCB</a>. For complicated routes you can also make use of <a href=\"https://www.happyrail.com/en\">HappyRail</a>. Booking well in advance (3 to 6 months before your trip) is recommended."
+        "content": "UGent employees can use our contract with Uniglobe Smart Travel. This organisation takes care of your train booking. You can also book directly via <a href=\"https://www.b-europe.com/EN\" target=\"_blank\">SNCB</a>. For complicated routes you can also make use of <a href=\"https://www.happyrail.com/en\" target=\"_blank\">HappyRail</a>. Booking well in advance (3 to 6 months before your trip) is recommended."
         },
         {"title": "How do you book a night train?",
             "content": "This depends on the train company that operates the train. All information can be found here."
             },
             {"title": "Can you use an Interrail Global Pass?",
-                "content": "The <a href=\"https://www.interrail.eu/en/interrail-passes/global-pass?&msclkid=b90242fa65c31128246b23ef73b2ac30&utm_source=bing&utm_medium=cpc&utm_campaign=BE_NL_02_Brand-Combi_AlwaysOn-DO-BE&utm_term=interrail%20global%20pass&utm_content=BE_NL_02_Exact&gclid=b90242fa65c31128246b23ef73b2ac30&gclsrc=3p.ds\">Interrail Global pass</a> is not only available for youngsters! It can also be financially advantageous for staff when the train ticket is expensive or when you travel to multiple destinations in a short period of time. A pass for 4 travel days within 1 month costs 246 EUR. For young people the fares are much lower. Please mind: for high speed trains there may be extra charges for reservations."
+                "content": "The <a href=\"https://www.interrail.eu/en/interrail-passes/global-pass?&msclkid=b90242fa65c31128246b23ef73b2ac30&utm_source=bing&utm_medium=cpc&utm_campaign=BE_NL_02_Brand-Combi_AlwaysOn-DO-BE&utm_term=interrail%20global%20pass&utm_content=BE_NL_02_Exact&gclid=b90242fa65c31128246b23ef73b2ac30&gclsrc=3p.ds\" target=\"_blank\">Interrail Global pass</a> is not only available for youngsters! It can also be financially advantageous for staff when the train ticket is expensive or when you travel to multiple destinations in a short period of time. A pass for 4 travel days within 1 month costs 246 EUR. For young people the fares are much lower. Please mind: for high speed trains there may be extra charges for reservations."
                 },
                 {"title": "Will external funders accept a more expensive train ticket when compared to a flight ticket? ",
                     "content": "Each institution should pursue ambitious CO2 reduction objectives. If you do encounter problems, you can always contact duurzaam@ugent.be. We will then try to start a dialogue with them. "
@@ -24,7 +24,7 @@
     ],
     "obstacles": [
         {"title": "Is there a compensation for more expensive train tickets for UGent staff?",
-        "content": "Train travel is subsidized by 30 EUR for train tickets > 100 EUR or by 100 EUR for train tickets > 200 EUR. You can find the procedure <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/subsidytraintickets\">here</a>."
+        "content": "Train travel is subsidized by 30 EUR for train tickets > 100 EUR or by 100 EUR for train tickets > 200 EUR. You can find the procedure <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/subsidytraintickets\" target=\"_blank\">here</a>."
         },
         {"title": "Is there a compensation for more expensive train tickets for visitors?",
             "content": "If the train ticket is not purchased by a staff member from Ghent University, then there is no compensation. We rely on similar efforts by the visitor's organization. If the train ticket is purchased by Ghent University, then the same subsidy scheme applies."
@@ -38,24 +38,24 @@
     ],
     "tips": [
         {"title": "Getting to and from the station",
-            "content": "As is the case when travelling to and from an airport, it is easy to use a taxi service at European railway stations. If you know the area well (or you want to prepare well), you can also use the bus or a shared bicycle system. In Belgium there is <a href=\"https://www.blue-bike.be/en\">BlueBike</a>, in the Netherlands the <a href=\"https://www.ns.nl/en/door-to-door/ov-fiets\">OV-bike</a>, and there are plenty of other local initiatives, for example, in the <a href=\"https://www.cyclinguk.org/article/guide-hire-bikes-and-public-bike-share-schemes\">UK</a> and in <a href=\"https://www.sbb.ch/en/station-services/at-the-station/getting-to-and-from-the-station.html\">Switzerland</a>."
+            "content": "As is the case when travelling to and from an airport, it is easy to use a taxi service at European railway stations. If you know the area well (or you want to prepare well), you can also use the bus or a shared bicycle system. In Belgium there is <a href=\"https://www.blue-bike.be/en\" target=\"_blank\">BlueBike</a>, in the Netherlands the <a href=\"https://www.ns.nl/en/door-to-door/ov-fiets\" target=\"_blank\">OV-bike</a>, and there are plenty of other local initiatives, for example, in the <a href=\"https://www.cyclinguk.org/article/guide-hire-bikes-and-public-bike-share-schemes\" target=\"_blank\">UK</a> and in <a href=\"https://www.sbb.ch/en/station-services/at-the-station/getting-to-and-from-the-station.html\" target=\"_blank\">Switzerland</a>."
             }
     ],
     "sustainability": [
         {"title": "What is the difference in CO2 emissions between my flight and my train journey?",
-            "content": "With the <a href=\"http://www.ecopassenger.org/bin/query.exe/en?L=vs_uic\">Ecopassenger</a> site you can compare the CO2 impact of your trip by train or plane."
+            "content": "With the <a href=\"http://www.ecopassenger.org/bin/query.exe/en?L=vs_uic\" target=\"_blank\">Ecopassenger</a> site you can compare the CO2 impact of your trip by train or plane."
             },
             {"title": "How does Ghent University stimulate more sustainable academic travel?",
-                "content": "With a <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm\">sustainable travel policy</a>, Ghent University commits itself to fly less and to travel more conscientiously and more sustainably. We aim to reduce the CO2 emissions of the total air travel by at least 1/3rd by 2030 as compared to 2019."
+                "content": "With a <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm\" target=\"_blank\">sustainable travel policy</a>, Ghent University commits itself to fly less and to travel more conscientiously and more sustainably. We aim to reduce the CO2 emissions of the total air travel by at least 1/3rd by 2030 as compared to 2019."
                 },
                 {"title": "Can we monitor the CO2 impact of our business trips?",
-                    "content": "Yes. Targets have been defined for each faculty (at least 1/3 reduction in CO2 emissions from flights by 2030 as compared to 2019). These are monitored annually using a <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/monitor\">mobility barometer</a>."
+                    "content": "Yes. Targets have been defined for each faculty (at least 1/3 reduction in CO2 emissions from flights by 2030 as compared to 2019). These are monitored annually using a <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/monitor\" target=\"_blank\">mobility barometer</a>."
                     },
                     {"title": "How can we convince our fellow colleagues at Ghent University to travel more sustainably?",
-                        "content": "Awareness-raising material will be distributed and can be requested at duurzaam@ugent.be. Additionally, the faculty-specific <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/monitor\">mobility barometer</a> (which will be extended to the departments in a later phase) will keep the pressure high and will hopefully nudge people towards reaching our ambitious goals together."
+                        "content": "Awareness-raising material will be distributed and can be requested at duurzaam@ugent.be. Additionally, the faculty-specific <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/monitor\" target=\"_blank\">mobility barometer</a> (which will be extended to the departments in a later phase) will keep the pressure high and will hopefully nudge people towards reaching our ambitious goals together."
                         },
                         {"title": "How can we also convince our research partners to take the train more often?",
-                            "content": "There is a call for UGent to take the lead in international research partnerships by making prior agreements on travel behavior. Here you can find an <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm\">example of a charter</a> that you can draw on together with your research partners."
+                            "content": "There is a call for UGent to take the lead in international research partnerships by making prior agreements on travel behavior. Here you can find an <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm\" target=\"_blank\">example of a charter</a> that you can draw on together with your research partners."
                             }
     ]
     }
