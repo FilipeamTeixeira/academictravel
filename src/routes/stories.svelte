@@ -12,7 +12,7 @@
 
     <a href="#{stories.id}" uk-toggle>
         <div uk-height-viewport="offset-top: true" class="uk-card uk-card-body uk-height-medium uk-light" style="background-color:{stories.color}">
-                <h1 class = "uk-text-left uk-margin-top" style = "font-weight:600;">{stories.name}</h1>
+                <h1 class = "uk-text-left uk-margin-top" style = "font-weight:600;">{stories.first_name} {stories.last_name}</h1>
             <p class = "uk-text-meta uk-margin-top-medium">{stories.bio}</p>
             <!-- removed class="uk-transition-slide-bottom-small"-->
             <div class="uk-card-footer uk-position-bottom">
@@ -41,7 +41,7 @@
         <div class="uk-grid-collapse uk-child-width-1-2@s uk-flex-middle" uk-grid>
             <div class="uk-background-cover" style="background-image: url('images/photo.jpg');" uk-height-viewport></div>
             <div class="uk-padding-large">
-                <h1>{stories.name}</h1>
+                <h1>{stories.first_name} {stories.last_name}</h1>
                 <p class = "uk-text-meta">{stories.bio}</p>
                 <h1 style = "text-align:left; font-size:20px; font-weight:600;">What are the initiatives you have been already/currently doing? </h1>
                 <p class = "uk-text-justify">{stories.storyA}</p>
