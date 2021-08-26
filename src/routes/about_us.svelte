@@ -29,21 +29,83 @@
 		<h1 style="transform: rotate(-90deg);">ABOUT US</h1>
 	</div>
 	<div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-1-2" style="height:250px; background-color: #f5f5f5;">
-		<h1 class = "uk-text-left uk-margin-top" style = "font-weight:600;">Filipe Teixeira</h1>
-	</div>
+		
+		<div class="uk-card uk-card-body uk-align-center uk-text-center">
+			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600;">Filipe Teixeira</h1>
+			<p class = "uk-margin-remove-top uk-margin-remove-bottom uk-padding-remove function" style="color:#9e9e9e">Postdoctoral research (Ghent University)</p>
+			<div class = "uk-align-center uk-text-center uk-margin-small">
+				<span class="uk-badge" style="background-color:#0076b6;">coordination</span>
+				<span class="uk-badge" style="background-color:#0076b6">development</span>
+				<span class="uk-badge" style="background-color:#0076b6">concept</span>
+				<span class="uk-badge" style="background-color:#0076b6">design</span>
+				<span class="uk-badge" style="background-color:#0076b6">R/shiny</span>
+				<span class="uk-badge" style="background-color:#0076b6">Svelte</span>
+			</div>
+			
+			<div class= "uk-margin-remove uk-padding-remove">
+				<a href="https://github.com/FilipeamTeixeira" target="_blank">
+					<span uk-icon="icon: github; ratio: 1.2" class = "uk-icon-link"></span>
+				</a>
+				<span>&nbsp;</span>
+					<a href="https://twitter.com/filipeabroad" target="_blank">
+						<span uk-icon="icon: twitter; ratio: 1.2" class = "uk-icon-link"></span>
+				</a>
+			</div>
+
+			</div>
+		</div>
+
 	<div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-1-4" style="height:250px; background-color: #C7CEF6;">
 	</div>
 </div>
 <div class="uk-grid-collapse" uk-grid>
 	<div class="uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-5" style="height:250px; background-color: #7496D2;">
-		<h1 class = "uk-text-left uk-margin-top" style = "font-weight:600;">Freke Caset</h1>
+
+		<div class="uk-card uk-card-body uk-align-center uk-text-center">
+			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600;">Freke Caset</h1>
+			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">Postdoctoral research at the Social and Economic Geography research group</p>
+			<div class = "uk-align-center uk-text-center uk-margin-small">
+				<span class="uk-badge" style="color:#8E96C7!important;">coordination</span>
+				<span class="uk-badge" style="color:#8E96C7!important;">development</span>
+				<span class="uk-badge" style="color:#8E96C7!important;">survey development</span>
+			</div>
+
+			<div class= "uk-margin-remove uk-padding-remove">
+					<a href="https://twitter.com/c_freke" target="_blank">
+						<span uk-icon="icon: twitter; ratio: 1.2" class = "uk-icon-link"></span>
+				</a>
+			</div>
+
+		</div>
+
 	</div>
 	<div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-3-5 uk-background-cover" style="height:250px;" data-src={train2} uk-img></div>
 </div>
 <div class="uk-grid-collapse" uk-grid>
 	<div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-3-5 uk-background-cover" style="height:250px;" data-src={train3} uk-img></div>
 	<div class="uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-5" style="height:250px; background-color: #d04444;">
-		<h3 class = "uk-text-left uk-margin-top" style = "font-weight:600;">Environmental department and Green Office</h3>
+		
+		<div class="uk-card uk-card-body uk-align-center uk-text-center">
+			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600; font-size:30px;">Environmental department and Green Office</h1>
+			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">TBT</p>
+			<div class = "uk-align-center uk-text-center uk-margin-small">	
+				<span class="uk-badge" style="color:#d04444!important;">coordination</span>
+				<span class="uk-badge" style="color:#d04444!important;">concept</span>
+			</div>
+
+			<div class= "uk-margin-remove uk-padding-remove uk-align-center">
+					<a href="https://twitter.com/c_freke" target="_blank">
+						<span uk-icon="icon: twitter; ratio: 1.2" class = "uk-icon-link"></span>
+				</a>
+				<span>&nbsp;</span>
+					<a href="https://twitter.com/filipeabroad" target="_blank">
+						<span uk-icon="icon: home; ratio: 1.1" class = "uk-icon-link"></span>
+				</a>
+			</div>
+
+		</div>
+		
+		
 	</div>
 </div>
 
@@ -58,4 +120,12 @@
     color:#147074;
     color:#0076b6;
 }
+
+.function{
+	font-weight:100;
+	font-family:Helvetica;
+	font-size:14px;
+}
+
+
 </style>

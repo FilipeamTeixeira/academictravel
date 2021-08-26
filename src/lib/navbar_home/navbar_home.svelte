@@ -19,7 +19,7 @@
                 <ul class="uk-navbar-nav uk-visible@m">
                     <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
                     <li class:active={$page.path === '/map'}><a sveltekit:prefetch href="/map">Map</a></li>
-                    <li class:active={$page.path === '/frontrunners'}><a sveltekit:prefetch href="/frontrunners">FrontRunners</a></li>
+                    <li class:active={$page.path === '/stories'}><a sveltekit:prefetch href="/stories">Community stories</a></li>
                 </ul>
 
                 <div class="uk-navbar-item uk-visible@m">

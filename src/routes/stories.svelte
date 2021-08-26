@@ -43,7 +43,10 @@
             <div class="uk-padding-large">
                 <h1>{stories.name}</h1>
                 <p class = "uk-text-meta">{stories.bio}</p>
-                <p class = "uk-text-justify">{stories.story}</p>
+                <h1 style = "text-align:left; font-size:20px; font-weight:600;">What are the initiatives you have been already/currently doing? </h1>
+                <p class = "uk-text-justify">{stories.storyA}</p>
+                <h1 style = "text-align:left; font-size:20px; font-weight:600;">Do you have any tips to convince your colleagues?</h1>
+                <p class = "uk-text-justify">{stories.storyB}</p>
             </div>
         </div>
     </div>
