@@ -63,7 +63,7 @@
             <ul class="uk-nav uk-nav-default tm-nav">
                 <li class:active={$page.path === '/'}><a sveltekit:prefetch href="/">Home</a></li>
                 <li class:active={$page.path === '/map'}><a sveltekit:prefetch href="/map">Map</a></li>
-                <li class:active={$page.path === '/frontrunners'}><a sveltekit:prefetch href="/frontrunners">FrontRunners</a></li>
+                <li class:active={$page.path === '/stories'}><a sveltekit:prefetch href="/stories">Community stories</a></li>
                 <li class:active={$page.path === '/faqs'}><a sveltekit:prefetch href="/faqs">FAQ</a></li>
                 <li class:active={$page.path === '/research'}><a sveltekit:prefetch href="/research">UGent Research</a></li>
                 <li class:active={$page.path === '/about_us'}><a sveltekit:prefetch href="/about_us">About Us</a></li>
