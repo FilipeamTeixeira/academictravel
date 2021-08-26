@@ -44,22 +44,22 @@
                     <ul class="uk-slideshow-items uk-margin-xlarge-top uk-padding-large-top"> <!--removed margin here-->
                         <li>
                             <div class="uk-position-center uk-position-small uk-text-center">
-                                <p class="uk-margin-remove quote">The views were just magnificent as the windows were really large.</p>
+                                <p class="uk-margin-remove quote">"The views were just magnificent as the windows were really large."</p>
                             </div>
                         </li>
                         <li>
                             <div class="uk-position-center uk-position-small uk-text-center">
-                                <p class="uk-margin-remove quote">The best experience was waking up on the flixbus in the morning, looking at the Swedish landscape and hoping to spot an elk!</p>
+                                <p class="uk-margin-remove quote">"The best experience was waking up on the flixbus in the morning, looking at the Swedish landscape and hoping to spot an elk!"</p>
                             </div>
                         </li>
                         <li>
                             <div class="uk-position-center uk-position-small uk-text-center">
-                                <p class="uk-margin-remove quote">Slow traveling on the cargo ship with plenty of time to talk, read, work and rest along the way.</p>
+                                <p class="uk-margin-remove quote">"Slow traveling on the cargo ship with plenty of time to talk, read, work and rest along the way."</p>
                             </div>
                         </li>
                         <li>
                             <div class="uk-position-center uk-position-small uk-text-center">
-                                <p class="uk-margin-remove quote">I usually get really a lot of work done during long train trips!</p>
+                                <p class="uk-margin-remove quote">"I usually get really a lot of work done during long train trips!"</p>
                             </div>
                         </li>
                     </ul>

@@ -13,7 +13,7 @@
 
 
 <div class="uk-grid-collapse" uk-grid>
-        <div class="uk-text-justify uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-3" style="padding: 40px; font-family:Helvetica; font-weight:100; height:350px; background-color: #93b3ad;">
+        <div class="uk-text-justify uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-3" style="padding: 40px; font-family:Helvetica; font-weight:100; height:270px; background-color: #93b3ad;">
 			This Academic Travel platform is an initiative from the Environmental Department, the Green Office and the Geography Department, all embedded within Ghent University. 
 			The tool was conceptualized and developed in light of the new UGent sustainable travel policy which was rolled out in September 2021. 
 			In its initial stage, 'Academic Travel' aims to serve as a sensitizing and inspirational tool for the community of UGent employees, 
@@ -21,7 +21,7 @@
 			A number of UGent members in particular have dedicated their time into realising this 
 			tool and are listed below. We are very keen on receiving any feedback of comments you may have. Feel free to contact us (details below).
 		</div>
-        <div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-1-3 uk-background-cover " style="height:350px;" data-src={train1} uk-img>
+        <div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-1-3 uk-background-cover " style="height:270px;" data-src={train1} uk-img>
 			</div>
 </div>
 <div class="uk-grid-collapse" uk-grid>
@@ -32,7 +32,7 @@
 		
 		<div class="uk-card uk-card-body uk-align-center uk-text-center">
 			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600;">Filipe Teixeira</h1>
-			<p class = "uk-margin-remove-top uk-margin-remove-bottom uk-padding-remove function" style="color:#9e9e9e">Postdoctoral research (Ghent University)</p>
+			<p class = "uk-margin-remove-top uk-margin-remove-bottom uk-padding-remove function" style="color:#9e9e9e">Postdoctoral researcher at the Department of Geography (Ghent University)</p>
 			<div class = "uk-align-center uk-text-center uk-margin-small">
 				<span class="uk-badge" style="background-color:#0076b6;">coordination</span>
 				<span class="uk-badge" style="background-color:#0076b6">development</span>
@@ -63,8 +63,9 @@
 
 		<div class="uk-card uk-card-body uk-align-center uk-text-center">
 			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600;">Freke Caset</h1>
-			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">Postdoctoral research at the Social and Economic Geography research group</p>
+			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">Postdoctoral researcher at the Department of Geography (Ghent University)</p>
 			<div class = "uk-align-center uk-text-center uk-margin-small">
+				<span class="uk-badge" style="color:#8E96C7!important;">concept</span>
 				<span class="uk-badge" style="color:#8E96C7!important;">coordination</span>
 				<span class="uk-badge" style="color:#8E96C7!important;">development</span>
 				<span class="uk-badge" style="color:#8E96C7!important;">survey development</span>
@@ -86,8 +87,10 @@
 	<div class="uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-5" style="height:250px; background-color: #d04444;">
 		
 		<div class="uk-card uk-card-body uk-align-center uk-text-center">
-			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600; font-size:30px;">Environmental department and Green Office</h1>
-			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">TBT</p>
+			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600; font-size:30px;">Environmental Department</h1>
+			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600; font-size:30px;">and Green Office</h1>
+			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">Riet Van de Velde</p>
+			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">Pieter Van Vooren</p>
 			<div class = "uk-align-center uk-text-center uk-margin-small">	
 				<span class="uk-badge" style="color:#d04444!important;">coordination</span>
 				<span class="uk-badge" style="color:#d04444!important;">concept</span>
