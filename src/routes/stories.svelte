@@ -42,7 +42,7 @@
 <!--            <div class="uk-background-cover" style="background-image: url('/static/stories_pics/{stories.picture}');" uk-height-viewport></div>
             <div class="uk-height-medium uk-flex uk-flex-center uk-flex-middle uk-background-cover" data-src = "static/stories_pics/{stories.picture}" uk-img uk-height-viewport></div>
 -->
-            <img data-src = "static/stories_pics/{stories.picture}" uk-img alt="">
+            <img data-src = "/static/stories_pics/{stories.picture}" uk-img alt="">
             <div class="uk-padding-large">
                 <h1>{stories.first_name} {stories.last_name}</h1>
                 <p class = "uk-text-meta">{stories.bio}</p>
