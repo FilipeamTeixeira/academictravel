@@ -8,7 +8,7 @@
     <object type="text/html" data="https://academictravel.ugent.be/shiny/academictravel/" style="overflow:auto; width:100%; height:100vh;">
     </object>
     <div class="uk-position-top">
-
+        
         <nav class="uk-navbar uk-navbar-transparent">
             <div class="uk-navbar-center">
                 <div class = "uk-navbar-item"> 
