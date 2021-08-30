@@ -1,13 +1,19 @@
 <script>
     	import { page } from '$app/stores';
-</script>
+        import SpinNew from '/src/lib/SpinNew.svelte'
+        import Map from './map.svelte'
 
+</script>
 
 <div class="uk-position-relative">
     <!-- svelte-ignore a11y-missing-attribute -->
-    <object type="text/html" data="https://academictravel.ugent.be/shiny/academictravel/" style="overflow:auto; width:100%; height:100vh;">
-    </object>
+    <Map>
+        <span slot="loader">
+            <SpinNew />
+        </span>
+    </Map>
     <div class="uk-position-top">
+        
         
         <nav class="uk-navbar uk-navbar-transparent">
             <div class="uk-navbar-center">
