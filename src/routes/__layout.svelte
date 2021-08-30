@@ -7,7 +7,6 @@
 	import '@fontsource/roboto';
 	import logoUgent from '/static/pictures/logo_ugent.png'
 
-
 </script>
 
 {#if $page.path === '/'}

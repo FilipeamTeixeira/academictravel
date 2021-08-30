@@ -1,5 +1,5 @@
 <script>
-
+	export const prerender = true;
 import FaqEn from "./faq_en.svelte";
 
 </script>

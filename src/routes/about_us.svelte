@@ -1,4 +1,4 @@
-<script context="module">
+<script>
 	export const prerender = true;
 	
 	import train1 from '/static/pictures/train1.jpg';

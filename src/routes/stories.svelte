@@ -1,6 +1,6 @@
 <script>
-
-  import stories from "/static/json_files/frdata.json"
+    export const prerender = true;
+    import stories from "/static/json_files/frdata.json"
 
 </script>
 
