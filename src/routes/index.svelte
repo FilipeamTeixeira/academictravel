@@ -1,4 +1,4 @@
-<script>
+<script context="module">
 	export const prerender = true;
     import banner from "/static/pictures/banner.jpg"
 </script>
