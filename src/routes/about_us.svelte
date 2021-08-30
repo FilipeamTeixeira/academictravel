@@ -87,8 +87,8 @@
 	<div class="uk-light uk-card uk-flex uk-flex-center uk-flex-middle uk-width-2-5" style="height:250px; background-color: #d04444;">
 		
 		<div class="uk-card uk-card-body uk-align-center uk-text-center">
-			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600; font-size:30px;">Environmental Department</h1>
-			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom" style = "font-weight:600; font-size:30px;">and Green Office</h1>
+			<h1 class = "uk-text-center uk-margin-top uk-margin-remove-bottom uk-padding-remove" style = "font-weight:600; font-size:30px;">Environmental Department</h1>
+			<h1 class = "uk-text-center uk-margin-remove-top uk-margin-remove-bottom uk-padding-remove" style = "font-weight:600; font-size:30px;">and Green Office</h1>
 			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">Riet Van de Velde</p>
 			<p class = "uk-margin-remove-top uk-padding-remove function uk-light uk-margin-remove-bottom">Pieter Van Vooren</p>
 			<div class = "uk-align-center uk-text-center uk-margin-small">	
@@ -97,11 +97,11 @@
 			</div>
 
 			<div class= "uk-margin-remove uk-padding-remove uk-align-center">
-					<a href="https://twitter.com/c_freke" target="_blank">
-						<span uk-icon="icon: twitter; ratio: 1.2" class = "uk-icon-link"></span>
+					<a href="https://www.facebook.com/Duurzaamheidskantoor" target="_blank">
+						<span uk-icon="icon: facebook; ratio: 1.2" class = "uk-icon-link"></span>
 				</a>
 				<span>&nbsp;</span>
-					<a href="https://twitter.com/filipeabroad" target="_blank">
+					<a href="https://www.ugent.be/duurzaam" target="_blank">
 						<span uk-icon="icon: home; ratio: 1.1" class = "uk-icon-link"></span>
 				</a>
 			</div>
