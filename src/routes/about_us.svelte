@@ -100,6 +100,7 @@
 					<a href="https://www.facebook.com/Duurzaamheidskantoor" target="_blank">
 						<span uk-icon="icon: facebook; ratio: 1.2" class = "uk-icon-link"></span>
 				</a>
+			
 				<span>&nbsp;</span>
 					<a href="https://www.ugent.be/duurzaam" target="_blank">
 						<span uk-icon="icon: home; ratio: 1.1" class = "uk-icon-link"></span>
