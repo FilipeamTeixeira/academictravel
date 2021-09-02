@@ -82,14 +82,33 @@ import json_faq from "/static/json_files/faq_en.json"
                                     <li>
                                     <a class="uk-accordion-title" href="#">{faq.title}</a>
                                         <div class="uk-accordion-content">
-                                            <p>{faq.content}</p>
+                                            <p>{@html faq.content}</p>
                                         </div>
                                     </li>
                                     {/each}
                         </ul>
                     </div>
                 </div>
+
+                <div>
+                    <div class="uk-tile uk-padding-remove-top uk-margin-remove-top">
+                        <p class="uk-h4">THE POLICY OF GHENT UNIVERSITY</p>
+                        <ul uk-accordion>
+                                {#each json_faq['policy'] as faq}
+                                    <li>
+                                    <a class="uk-accordion-title" href="#">{faq.title}</a>
+                                        <div class="uk-accordion-content">
+                                            <p>{@html faq.content}</p>
+                                        </div>
+                                    </li>
+                                    {/each}
+                        </ul>
+                    </div>
+                </div>
+
             </div>
+
+
     
         </div>
     </div>

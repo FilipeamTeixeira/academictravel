@@ -57,6 +57,17 @@
                         {"title": "How can we also convince our research partners to take the train more often?",
                             "content": "There is a call for UGent to take the lead in international research partnerships by making prior agreements on travel behavior. Here you can find an <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm\" target=\"_blank\">example of a charter</a> that you can draw on together with your research partners."
                             }
+    ],
+    "policy": [
+        {"title": "How is Ghent University planning to reduce its business flights?",
+            "content": "In order to reduce CO2 emissions by 1/3 by 2030, trains should be chosen instead of planes where possible. The number of journeys should also be reduced. These guidelines of the <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm\" target=\"_blank\">sustainable travel policy</a> must be followed: <ul> <li> Reduce travel through online meetings and conferences; </li> <li> If we can get somewhere within 8 hours by train, we are expected to do so;</li><li> In international research collaborations, Ghent University takes the lead by making prior arrangements concerning travel behaviour;</li><li> For each flight, a contribution of 50 EUR/tonne of CO2 is charged. This contribution is used to realise CO2 reductions in a climate project in order to subsidise train journeys and to feed a provision for 'living labs'.</li></ul>"
+            },
+            {"title": "If we invite guests and we pay the flight ticket, do we have to follow the travel policy of Ghent University?",
+                "content": "If the flight ticket is paid by someone of Ghent University, the guidelines of the <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm\" target=\"_blank\">sustainable travel policy</a> must be followed. It means that you propose your guest to travel by train if the destination can be reached within 8 hours travelling by train. A CO2 tax of 50 EUR/ton CO2 is charged."
+                },
+                {"title": "If we are invited by international organisations and they pay the flight ticket, do we have to follow the travel policy of Ghent University?",
+                    "content": "If your flight ticket is paid by another institution, the <a href=\"https://www.ugent.be/en/ghentuniv/principles/sustainability/guidelines/travel/overview.htm\" target=\"_blank\">sustainable travel policy</a> must not be followed. Of course you can still suggest to follow the guidelines of Ghent University."
+                    }
     ]
     }
 
