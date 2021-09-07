@@ -1,5 +1,6 @@
 <script context="module">
 	export const prerender = true;
+	
 	import research_sciences from "/static/json_files/research_sciences.json";
 	import research_politics from "/static/json_files/research_politics.json";
 	import research_economics from "/static/json_files/research_economics.json";

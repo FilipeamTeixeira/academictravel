@@ -19,7 +19,7 @@
 			In its initial stage, 'Academic Travel' aims to serve as a sensitizing and inspirational tool for the community of UGent employees, 
 			hoping to stimulate the transition towards more sustainable work-related travels. 
 			A number of UGent members in particular have dedicated their time into realising this 
-			tool and are listed below. We are very keen on receiving any feedback of comments you may have. Feel free to contact us (details below).
+			tool and are listed below. We are very keen on receiving any feedback or comments you may have. Feel free to contact us (details below).
 		</div>
         <div class="uk-card uk-flex uk-flex-center uk-flex-middle uk-width-1-3 uk-background-cover " style="height:270px;" data-src={train1} uk-img>
 			</div>
