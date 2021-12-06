@@ -4,26 +4,28 @@
 
 </script>
 
-<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+<div class="uk-child-width-1-3@s uk-grid-collapse uk-text-center uk-light" uk-grid>
 
-<ul class="uk-margin-remove uk-padding-remove uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
-    {#each stories as stories}
-    <li class="zoom uk-transition-toggle uk-animation-toggle">
-
-    <a href="#{stories.id}" uk-toggle>
-        <div uk-height-viewport="offset-top: true" class="uk-card uk-card-body uk-height-medium uk-light" style="background-color:{stories.color}">
-                <h1 class = "uk-text-left uk-margin-top" style = "font-weight:600;">{stories.first_name} {stories.last_name}</h1>
-            <p class = "uk-text-meta uk-margin-top-medium">{stories.bio}</p>
+        {#each stories as stories}
+        <a href="#{stories.id}" uk-toggle>
+        <div class="uk-tile uk-tile-default zoom uk-transition-toggle uk-animation-toggle" style="background-color:{stories.color}">
+            <h1 class = "uk-text-center uk-margin-medium-left" style = "font-weight:600;">{stories.first_name} {stories.last_name} </h1>
+            <p class = "uk-text-meta uk-text-center uk-margin-medium-left">{stories.bio}</p>
             <!-- removed class="uk-transition-slide-bottom-small"-->
             <div class="uk-card-footer uk-position-bottom">
                 <span class = "uk-light uk-margin-small-right" uk-icon="info"></span>
                 <span class = "uk-light" style="font-size: 14px;">Read story</span>
             </div>
         </div>
-    </a>
-</li>
-    {/each}
-</ul>
+        </a>
+        {/each}
+
+</div>
+
+
+<div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
+
+
 
 <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
 <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
