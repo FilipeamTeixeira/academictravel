@@ -5,7 +5,9 @@
 </script>
 
 <div class="uk-child-width-1-3@s uk-grid-collapse uk-text-center uk-light" uk-grid>
+
         {#each stories as stories}
+        <a href="#{stories.id}" uk-toggle>
         <div class="uk-tile uk-tile-default zoom uk-transition-toggle uk-animation-toggle" style="background-color:{stories.color}">
             <h1 class = "uk-text-center uk-margin-medium-left" style = "font-weight:600;">{stories.first_name} {stories.last_name} </h1>
             <p class = "uk-text-meta uk-text-center uk-margin-medium-left">{stories.bio}</p>
@@ -15,7 +17,9 @@
                 <span class = "uk-light" style="font-size: 14px;">Read story</span>
             </div>
         </div>
+        </a>
         {/each}
+
 </div>
 
 
