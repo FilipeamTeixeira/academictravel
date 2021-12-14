@@ -4,26 +4,25 @@
 
 </script>
 
+<div class="uk-child-width-1-3@s uk-grid-collapse uk-text-center uk-light uk-margin-remove uk-padding-remove" uk-grid>
 
-    <ul class="uk-child-width-1-3@s uk-grid-collapse uk-text-center uk-light uk-margin-remove uk-padding-remove" uk-grid>
         {#each stories as stories}
-        <li class="zoom uk-transition-toggle uk-animation-toggle">
-
+        <div class="uk-tile uk-tile-default zoom uk-transition-toggle uk-animation-toggle" style="background-color:{stories.color}">
             <a href="#{stories.id}" uk-toggle>
-                <div class="uk-card uk-card-body uk-height-medium uk-light" style="background-color:{stories.color}">
-                        <h1 class = "uk-text-center uk-margin-medium-left" style = "font-weight:600;">{stories.first_name} {stories.last_name}</h1>
-                    <p class = "uk-text-meta uk-text-center uk-margin-medium-left">{stories.bio}</p>
-                    <!-- removed class="uk-transition-slide-bottom-small"-->
-                    <div class="uk-card-footer uk-position-bottom">
-                        <span class = "uk-light uk-margin-small-right" uk-icon="info"></span>
-                        <span class = "uk-light" style="font-size: 14px;">Read story</span>
-                    </div>
-                </div>
-            </a>
 
-        </li>
+            <h1 class = "uk-text-center uk-margin-medium-left" style = "font-weight:600;">{stories.first_name} {stories.last_name} </h1>
+            <p class = "uk-text-meta uk-text-center uk-margin-medium-left">{stories.bio}</p>
+            <!-- removed class="uk-transition-slide-bottom-small"-->
+            <div class="uk-card-footer uk-position-bottom">
+                <span class = "uk-light uk-margin-small-right" uk-icon="info"></span>
+                <span class = "uk-light" style="font-size: 14px;">Read story</span>
+            </div>
+        </a>
+
+        </div>
         {/each}
-    </ul>
+
+</div>
 
 
 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider>
